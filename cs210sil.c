@@ -9,7 +9,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 
-// Use this funciton as a template for the others
+// Use this function as a template for the others
 int getIntegerSafe(){
    int value;
    int scanfReturn = 0;
