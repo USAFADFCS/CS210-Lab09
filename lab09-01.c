@@ -10,6 +10,9 @@
 #include <stdlib.h>
 #include <string.h>
 
+#define MIN_PASSW_LEN 7
+#define MAX_PASSW_LEN 50
+
 /* -------------------------------------------------------
  * @brief Computes the Hash.  You do not need to modify this function
  * @param str the string to hash
@@ -35,9 +38,6 @@ unsigned int ELFHash(const char* str, unsigned int length) {
 
 
 int main(void) {
-
-    const int MIN_PASSW_LEN = 7;
-    const int MAX_PASSW_LEN = 50;
 
     // TODO String Variables
     char newPass[] = "";
