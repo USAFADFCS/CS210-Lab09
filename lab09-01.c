@@ -47,7 +47,7 @@ int main(void) {
 
     // Get New Password Candidate from the User
     printf("enter a new password NO SPACES ");
-    printf("(%i to %i chars long): ", MIN_PASSW_LEN, MAX_PASSW_LEN);
+    printf("(%d to %d chars long): ", MIN_PASSW_LEN, MAX_PASSW_LEN);
     // TODO scanf
 
 
