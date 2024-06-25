@@ -15,7 +15,7 @@ int getIntegerSafe(){
    int scanfReturn = 0;
 
    // attempt to read an integer value
-   scanfReturn = scanf("%i", &value);
+   scanfReturn = scanf("%d", &value);
    fflush(stdin); // eliminate any excess input
 
    // quit if unsuccessful

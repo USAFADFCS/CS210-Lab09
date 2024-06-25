@@ -20,7 +20,7 @@ int main(void) {
    // Testing Integers
    printf("enter an integer value (or not): ");
    intVar = getIntegerSafe();
-   printf("you entered a good integer value: %i\n", intVar);
+   printf("you entered a good integer value: %d\n", intVar);
 
    // Testing Longs
    printf("enter a long value (or not): ");
