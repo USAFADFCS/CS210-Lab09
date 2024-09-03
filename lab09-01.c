@@ -40,8 +40,8 @@ unsigned int ELFHash(const char* str, unsigned int length) {
 int main(void) {
 
     // TODO String Variables
-    char newPass[] = "";
-    char repeatPass[] = "";
+    char newPass[50] = "";
+    char repeatPass[50] = "";
     int newPassLen = 0;
 
 
