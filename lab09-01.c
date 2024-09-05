@@ -39,9 +39,12 @@ unsigned int ELFHash(const char* str, unsigned int length) {
 
 int main(void) {
 
-    // TODO String Variables
-    char newPass[MAX_PASSW_LEN] = "";
-    char repeatPass[MAX_PASSW_LEN] = "";
+    // TODO String Variables 
+    // How large should these be to store the string and the NULL terminator?
+    // Should we use predefined constants?
+    char newPass[] = "";
+    char repeatPass[] = "";
+    
     int newPassLen = 0;
 
 
